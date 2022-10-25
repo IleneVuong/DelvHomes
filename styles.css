@@ -46,10 +46,12 @@ nav.main-nav {
 
 .hero {
     height:75vh;
-    background-image: url(.../img/castle.jpg);
+    background-image: url(.../img/hero.jpg);
     background-size:cover;
     background-attachment:fixed;
     display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .hero-content {
@@ -59,4 +61,18 @@ nav.main-nav {
     border-radius:2rem;
     box-shadow: 0 3px 5px;
     padding:2rem;
+}
+
+/*Highlights boxes - the only thing that I've done right so far*/
+.container {
+    position:relative;
+    text-align:center;
+    color:black;
+}
+
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
 }

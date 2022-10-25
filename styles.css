@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+img {
+    max-width:100%;
+}
+
+header {
+    background-color:black;
+    color:white;
+}
+
+nav.main-nav {
+    width:100%;
+    max-width:1280px;
+    display:flex;
+    align-items:center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-nav .logo {
+    width:200px;
+}
+
+.main-nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.man-nav a {
+    display: inline-block;
+    padding:2rem;
+    color:white;
+    size:2rem;
+    text-decoration:none;
+    transition: all 250ms ease;
+}
+ .main-nav
+
+.hero {
+    height:75vh;
+    background-image: url(.../img/castle.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    display:flex;
+}
+
+.hero-content {
+    background-color:black;
+    width:30%;
+    color:white;
+    border-radius:2rem;
+    box-shadow: 0 3px 5px;
+    padding:2rem;
+}

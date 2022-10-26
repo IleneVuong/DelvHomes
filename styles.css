@@ -4,13 +4,14 @@
 
 body {
     margin:0;
+    font-size:16px;
 }
 img {
     max-width:100%;
 }
 
 header {
-    background-color:black;
+    background-color:transparent;
     color:white;
 }
 
@@ -32,21 +33,30 @@ nav.main-nav {
     margin:0;
     padding:0;
     display:flex;
+    justify-content:flex-start;
 }
 
-.man-nav a {
+.main-nav a {
     display: inline-block;
     padding:2rem;
     color:white;
-    size:2rem;
+    size:1.5rem;
+    font-family:sans-serif;
     text-decoration:none;
     transition: all 250ms ease;
 }
- .main-nav
+.main-nav a:hover {
+    color:yellow;
+    background-color:dodgerblue;
+}
+header {
+    background-image: url(../img/hero.jpg);
+    background-size:1440px;
+    background-position-y:top;
+}
 
 .hero {
     height:75vh;
-    background-image: url(.../img/hero.jpg);
     background-size:cover;
     background-attachment:fixed;
     display:flex;
@@ -55,19 +65,29 @@ nav.main-nav {
 }
 
 .hero-content {
-    background-color:black;
+    background-color:rgba(0,0,0,0.5);
     width:30%;
     color:white;
-    border-radius:2rem;
-    box-shadow: 0 3px 5px;
+    border-radius:1rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.25);
     padding:2rem;
 }
 
-/*Highlights boxes - the only thing that I've done right so far*/
-.container {
+main {
+    max-width:1280px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+/*Highlights boxes*/
+/*I don't know how put these boxes into three rows*/
+.box8,
+.box9,
+.box10 {
     position:relative;
     text-align:center;
-    color:black;
 }
 
 .centered {
@@ -75,4 +95,33 @@ nav.main-nav {
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
+}
+
+
+/*Mission and Gallery*/
+.box1 {
+    width:50%;
+    font-size:20px;
+}
+
+.box1 > h2 {
+    text-align:center;
+    margin-bottom:20%
+}
+
+h2 {
+    font-size:30px;
+}
+
+.box2 {
+    text-align:center;
+}
+
+.row {
+    width:50%;
+}
+
+.col2 {
+    width:100%;
+    column-count:2;
 }

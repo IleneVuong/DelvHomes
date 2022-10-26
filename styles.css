@@ -5,6 +5,7 @@
 body {
     margin:0;
     font-size:16px;
+    background-color:ghostwhite;
 }
 img {
     max-width:100%;
@@ -51,7 +52,7 @@ nav.main-nav {
 }
 header {
     background-image: url(../img/hero.jpg);
-    background-size:1440px;
+    background-size:100%;
     background-position-y:top;
 }
 
@@ -81,30 +82,13 @@ main {
     justify-content:space-between;
 }
 
-/*Highlights boxes*/
-/*I don't know how put these boxes into three rows*/
-.box8,
-.box9,
-.box10 {
-    position:relative;
-    text-align:center;
-}
-
-.centered {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-}
-
-
 /*Mission and Gallery*/
-.box1 {
+.index-box1 {
     width:50%;
     font-size:20px;
 }
 
-.box1 > h2 {
+.index-box1 > h2 {
     text-align:center;
     margin-bottom:20%
 }
@@ -113,7 +97,7 @@ h2 {
     font-size:30px;
 }
 
-.box2 {
+.index-box2 {
     text-align:center;
 }
 
@@ -124,4 +108,89 @@ h2 {
 .col2 {
     width:100%;
     column-count:2;
+}
+
+/*Highlights boxes*/
+.index-box8,
+.index-box9,
+.index-box10 {
+    position:relative;
+    text-align:center;
+    width:32%;
+    height:100%;
+}
+
+.highlights-content {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.index-box7 {
+    width:100%;
+    text-align:center;
+
+}
+
+.centered > a {
+    text-decoration:none;
+    font-size:50px;
+    color:black;
+}
+
+
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+/*Amenities + Tour*/
+.index-box11 {
+    display:flex;
+    width:50%;
+    text-align:center;
+}
+
+.index-box12 > div {
+    text-align:right;
+    margin-right:10%;
+    font-family:sans-serif;
+}
+
+.corner > a {
+    text-decoration:none;
+    background-color:black;
+    color:white;
+    padding:5px;
+    border-radius:15px;
+}
+
+.flexbox {
+    display:flex;
+    flex-direction:row;
+}
+
+.index-box12 {
+    width:50%;
+    background-color:red;
+}
+
+.index-box13 {
+    background-color:blue;
+}
+
+/*talk to experts*/
+.index-box14 {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.ceo,
+.eng,
+.ux {
+    width:32%;
+    margin-top:5%;
+    text-align:center;
 }

@@ -186,11 +186,25 @@ h2 {
 
 .index-box12 {
     width:50%;
-    background-color:red;
+    margin-top:10%;
 }
 
 .index-box13 {
-    background-color:blue;
+    width:50%;
+    position:relative;
+    text-align:center;
+    height:95%;
+    margin-top:100px;
+}
+
+.box13 {
+    position:absolute;
+    top:40%;
+    bottom:50%;
+    font-size:70px; 
+    right:35%;
+    color:black;
+    text-decoration:none;
 }
 
 /*talk to experts*/

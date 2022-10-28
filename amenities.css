@@ -60,9 +60,9 @@ nav.main-nav {
 }
 
 header {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/purple.jpg);
     background-size:100%;
-    background-position-y:top;
+    background-position-y:center;
 }
 
 .hero {
@@ -101,7 +101,7 @@ main {
 
 .text-primary {
     text-align: center;
-    background:rgb(196, 145, 197);
+    background:rgb(124, 124, 220);
     padding-top: 3%;
     padding-bottom:3%;
     font-size:35px;
@@ -110,15 +110,51 @@ main {
 }
 
 .flexbox {
-    width:32%;
     display:flex;
     justify-content:space-between;
 }
 
-.flexbox  {
-    padding: 60px;
+/*flex boxes css*/
+.amenities-img  {
     text-align: center;
     background: #1abc9c;
     color: white;
     font-size: 30px;
+    width:32%;
+}
+
+/*Font size for health care, isolation mode, and restful ease paragraphs*/
+.amenities-img > p {
+    font-size:20px;
+}
+
+.airship {
+    background:rgb(124, 124, 220);
+    text-align: center;
+    padding: 3%;
+    margin-top:5%;
+    font-size:35px;
+}
+
+.airship-flex {
+    display:flex;
+    justify-content:space-around;
+    margin-top:3%;
+}
+
+.airship-img {
+    width:49%;
+}
+
+.airship-img > p {
+font-size: 28px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.airship-img > img {
+
+}
+
+.airship-img2 {
+    width:49%;
 }

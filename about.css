@@ -101,11 +101,11 @@ h2 {
     justify-content:space-between;
 }
 
-.img {
+.img1 {
     width:32%;
 }
 
-img {
+.tech-img {
     border-radius:50%;
     border:solid 2px red;
     size:80%;
@@ -125,4 +125,20 @@ img {
 .tech > h2 {
     background-color:grey;
     padding:10px;
+}
+
+.content {
+    height:300px;
+    font-size:20px;
+}
+
+.history {
+    background:rgb(137, 126, 126);
+    margin-right:15%;
+    margin-left:15%;
+    margin-top:10%;
+}
+p > img {
+    width:30%;
+    float:right;
 }

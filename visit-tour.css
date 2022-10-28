@@ -83,6 +83,11 @@ main {
     justify-content:space-between;
 }
 
+h2 {
+    font-size:45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#02223C;
+}
 /*What to expect and the other parts*/
 .row1 {
     display:flex;
@@ -95,10 +100,12 @@ main {
     width:50%;
 }
 .whats-included > h2 {
+    text-align:center;
     font-size:30px;
+}
+.location-head {
     text-align:center;
 }
-
 .row2 {
     column-count:2;
     font-family:sans-serif;
@@ -109,6 +116,18 @@ main {
     text-align:center;
 }
 
+/*House and price*/
+.row3 {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
 
+.house {
+    width:23%;
+}
 
+h3 {
+    text-align:center;
+}
 

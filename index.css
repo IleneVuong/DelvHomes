@@ -1,0 +1,281 @@
+/*NAV AND HERO*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-size:16px;
+    background-color:#F6F7EB;
+}
+
+img {
+    max-width:100%;
+}
+
+header {
+    background-color:transparent;
+    color:white;
+}
+
+nav.main-nav {
+    width:100%;
+    max-width:1280px;
+    display:flex;
+    align-items:center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-nav .logo {
+    width:200px;
+}
+
+.main-nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding:2rem;
+    color:#f0f1e5;
+    size:1.5rem;
+    font-family:Tahoma, sans-serif;
+    text-decoration:none;
+    transition: all 250ms ease;
+    font-size:18px;
+    text-shadow:0 3px 5px rgba(0,0,0,0.7);
+}
+.main-nav a:hover {
+    color:#E94F37;
+    border-radius:10px;
+    text-shadow:0 3px 5px rgba(133, 131, 131, 0.7);
+}
+.logo a:hover {
+    background-color:transparent;
+}
+
+header {
+    background-image: url(../img/blue.jpg);
+    background-size:100%;
+    background-position-y:bottom;
+}
+
+.hero {
+    height:75vh;
+    background-size:cover;
+    background-attachment:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-content {
+    border-radius:20px;
+    width:40%;
+    color:#F6F7EB;
+    padding:2rem;
+    font-size:70px;
+    width:max-content;
+}
+
+main {
+    max-width:1280px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+/*universal body*/
+h2 {
+    font-size:45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#02223C;
+}
+
+/*Mission and Gallery*/
+.mission {
+    width:50%;
+    font-size:20px;
+}
+
+.mission > h2 {
+    text-align:center;
+    margin-bottom:20%
+}
+
+.gal-head {
+    text-align:center;
+}
+
+.gallery {
+    width:50%;
+}
+
+.gal-col {
+    width:100%;
+    column-count:2;
+}
+
+/*Highlights boxes*/
+.index-box8,
+.index-box9,
+.index-box10 {
+    position:relative;
+    text-align:center;
+    width:32%;
+    height:100%;
+}
+
+.highlights-content {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.img {
+    opacity:.7;
+    border:solid 3px #02223C;
+    border-radius:20px;
+}
+
+.index-box7 {
+    width:100%;
+    text-align:center;
+    margin-top:5%;
+}
+
+.centered > a {
+    text-decoration:none;
+    font-size:50px;
+    color:#E94F37;
+    text-shadow:0 3px 5px rgba(0,0,0,0.7);
+    transition: all 250ms ease;
+}
+.centered > a:hover {
+    color:#73648A;
+}
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:max-content;
+}
+
+.highlight {
+    padding-top:10%;
+    padding-bottom:10%;
+}
+/*Amenities + Tour*/
+.index-box11 {
+    display:flex;
+    width:50%;
+    text-align:center;
+}
+
+.index-box12 > div {
+    text-align:right;
+    margin-right:10%;
+    font-family:sans-serif;
+}
+
+.corner > a {
+    text-decoration:none;
+    background-color:#E94F37;
+    color:#F6F7EB;
+    padding:7px;
+    border-radius:5px;
+    transition: all 250ms ease;
+}
+.corner a:hover {
+    color:#F6F7EB;
+    background-color:#73648A;
+}
+
+.flexbox {
+    display:flex;
+    flex-direction:row;
+    border:solid 3px #02223C;
+    background-color:#02223c;
+    margin-top:10%;
+    padding-bottom:9%;
+}
+
+.img2 {
+    opacity:.7;
+}
+
+.index-box12 {
+    width:50%;
+    margin-top:10%;
+    color:#F6F7EB;
+}
+.index-content > h2 {
+    color:#E94F37;
+}
+.index-box13 {
+    width:50%;
+    position:relative;
+    text-align:center;
+    height:90%;
+    margin-top:100px;
+}
+
+.index-box13 > a:hover {
+    color:#E94F37;
+    transition: all 250ms ease;
+}
+
+.box13 {
+    position:absolute;
+    top:40%;
+    bottom:50%;
+    font-size:70px; 
+    right:35%;
+    color:black;
+    text-decoration:none;
+    text-shadow:0 3px 5px rgba(0,0,0,0.7);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*talk to experts*/
+.index-box14 {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.index-box14 a {
+    text-decoration:none;
+    color:#02223C;
+    transition: all 250ms ease;
+    font-family:sans-serif;
+}
+
+.index-box14 a:hover {
+    color:#E94F37;
+}
+.ceo,
+.eng,
+.ux {
+    width:32%;
+    text-align:center;
+    border:solid 2px #02223C;
+    scale:95%;
+    background-color:#9882AC;
+    color:#0E131F;
+}
+.ceo {
+    margin-left:5%;
+}
+.eng {
+    margin-right:5%;
+}
+
+.index-box15 {
+    text-align:center;
+    margin-top:7%;
+}

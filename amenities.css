@@ -6,8 +6,9 @@
 body {
     margin:0;
     font-size:16px;
-    background-color:ghostwhite;
+    background-color:#F6F7EB;
 }
+
 img {
     max-width:100%;
 }
@@ -41,16 +42,23 @@ nav.main-nav {
 .main-nav a {
     display: inline-block;
     padding:2rem;
-    color:white;
+    color:#f0f1e5;
     size:1.5rem;
-    font-family:sans-serif;
+    font-family:Tahoma, sans-serif;
     text-decoration:none;
     transition: all 250ms ease;
+    font-size:18px;
+    text-shadow:0 3px 5px rgba(0,0,0,0.7);
 }
 .main-nav a:hover {
-    color:yellow;
-    background-color:dodgerblue;
+    color:#E94F37;
+    border-radius:10px;
+    text-shadow:0 3px 5px rgba(133, 131, 131, 0.7);
 }
+.logo a:hover {
+    background-color:transparent;
+}
+
 header {
     background-image: url(../img/hero.jpg);
     background-size:100%;
@@ -67,12 +75,20 @@ header {
 }
 
 .hero-content {
-    background-color:rgba(0,0,0,0.5);
-    width:30%;
-    color:white;
-    border-radius:1rem;
-    box-shadow: 0 3px 5px rgba(0,0,0,0.25);
+    border-radius:20px;
+    width:40%;
+    color:#F6F7EB;
     padding:2rem;
+    font-size:70px;
+    width:max-content;
+}
+
+main {
+    max-width:1280px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
 main {

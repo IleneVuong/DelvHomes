@@ -5,7 +5,7 @@
 body {
     margin:0;
     font-size:16px;
-    background-color:#F6F7EB;
+    background-color:#2e2f27;
 }
 
 img {
@@ -59,7 +59,7 @@ nav.main-nav {
 }
 
 header {
-    background-image: url(../img/experience-hero.jpg);
+    background-image: url(../img/ex-hero.jpg);
     background-size:100%;
     background-position-y:bottom;
 }
@@ -92,7 +92,7 @@ main {
 
 h2 {
     text-align: center;
-    background:rgb(124, 124, 220);
+    background:#77A3B6;
     padding-top: 3%;
     padding-bottom:3%;
     font-size:35px;
@@ -106,15 +106,15 @@ h2 {
     justify-content:space-between;
 }
 
-.experience-img  {
+.experience  {
     text-align: center;
-    background: #1abc9c;
+    background: #853c47;
     color: white;
     font-size: 30px;
     width:32%;
 }
 
-.experience-img > p {
+.experience > p {
     font-size:20px;
 }
 
@@ -123,6 +123,10 @@ h2 {
     margin-left:40px;
     margin-right:40px;
     font-size:20px;
+}
+
+.staff > p {
+    color:#dddddd;
 }
 
 .airship {
@@ -160,8 +164,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width:46%;
     margin: 20px 1.15%;
     height:160px;
-    background-color: #b0c6df;
+    background-color: #3E5F7A;
     overflow:hidden;
+    color:#dddddd;
 }
 
 .avatar {

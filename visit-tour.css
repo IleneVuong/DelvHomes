@@ -5,7 +5,7 @@
 body {
     margin:0;
     font-size:16px;
-    background-color:#F6F7EB;
+    background-color:#2e2f27;
 }
 
 img {
@@ -90,10 +90,11 @@ main {
     justify-content:space-between;
 }
 
+/**/
 h2 {
     font-size:45px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#02223C;
+    color:#E94F37;
 }
 /*What to expect and the other parts*/
 .row1 {
@@ -103,24 +104,30 @@ h2 {
     font-family:sans-serif;
 }
 .included-img,
-.whats-included {
+.what-to-expect {
     width:50%;
+    color:#f0f1e5;
 }
-.whats-included > h2 {
+.what-to-expect > h2 {
     text-align:center;
     font-size:30px;
+    color:#7A360A;
 }
+
 .location-head {
     text-align:center;
 }
+
 .row2 {
     column-count:2;
     font-family:sans-serif;
+    color:#F6F7EB;
 }
 
-.what-to-expect > h2 {
+.whats-included > h2 {
     font-size:30px;
     text-align:center;
+    color:#7A360A;
 }
 
 /*House and price*/
@@ -132,6 +139,7 @@ h2 {
 
 .house {
     width:23%;
+    color:#f0f1e5;
 }
 
 h3 {
@@ -140,6 +148,7 @@ h3 {
 /*form*/
 .form {
     margin-left:350px;
+    color:#f0f1e5;
 }
 .name {
     width:300px;

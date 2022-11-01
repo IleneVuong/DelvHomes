@@ -6,7 +6,7 @@
 body {
     margin:0;
     font-size:16px;
-    background-color:#F6F7EB;
+    background-color:#2e2f27;
 }
 
 img {
@@ -94,13 +94,14 @@ main {
 h2 {
     font-size:45px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#02223C;
+    color:#c4cbd0;
 }
 
 /*Mission and Gallery*/
 .mission {
     width:50%;
     font-size:20px;
+    color:#c4cbd0;
 }
 
 .mission > h2 {
@@ -193,14 +194,14 @@ h2 {
 }
 .corner a:hover {
     color:#F6F7EB;
-    background-color:#73648A;
+    background-color:#e94f37b5;
 }
 
 .flexbox {
     display:flex;
     flex-direction:row;
-    border:solid 3px #02223C;
-    background-color:#02223c;
+    border:solid 3px #0f3656;
+    background-color:#0f3656;
     margin-top:10%;
     padding-bottom:9%;
 }
@@ -250,7 +251,7 @@ h2 {
 }
 .index-box14 a {
     text-decoration:none;
-    color:#02223C;
+    color:#adaeae;
     transition: all 250ms ease;
     font-family:sans-serif;
 }
@@ -265,7 +266,7 @@ h2 {
     text-align:center;
     border:solid 2px #02223C;
     scale:95%;
-    background-color:#9882AC;
+    background-color:#0f3656;
     color:#0E131F;
 }
 .ceo {
@@ -283,5 +284,5 @@ h2 {
 footer {
     margin-top:8%;
     height:300px;
-    background-color:rgb(51, 51, 51);
+    background-color:rgb(102, 102, 102);
 }

@@ -109,7 +109,6 @@ h2 {
 
 .tech-img {
     border-radius:50%;
-    border:solid 2px red;
     size:80%;
 }
 
@@ -132,12 +131,13 @@ h2 {
 
 .article-image {
     float:right;
-    width:300px;
+    width:26%;
     height:200px;
     margin-right:20px;
     margin-bottom:20px;
     margin-left:20px;
 }
+
 .container {
     margin-right:15%;
     margin-left:15%;
@@ -145,6 +145,7 @@ h2 {
     margin-bottom:10%;
     width:70%;
     background-color:#F5CF8E;
+    font-size:20px;
 }
 
 .history-head {
@@ -160,17 +161,56 @@ h2 {
     width:46%;
     margin: 20px 1.15%;
     height:160px;
-    background-color: #B2D6FF;
+    background-color: #9db9d8;
     overflow:hidden;
 }
 
-.avatar {
+.avatar1 {
+    background-image:url(../img/ceo.jpg);
     float:left;
     width:60px;
     height:60px;
     margin:20px;
     border-radius:40px;
     background-color:#D6E9FE;
+    background-size:160%;
+    background-position:center;
+}
+
+.avatar2 {
+    background-image:url(../img/enya.jpg);
+    float:left;
+    width:60px;
+    height:60px;
+    margin:20px;
+    border-radius:40px;
+    background-color:#D6E9FE;
+    background-size:100%;
+    background-position:center;
+}
+
+.avatar3 {
+    background-image:url(../img/engineer.jpg);
+    float:left;
+    width:60px;
+    height:60px;
+    margin:20px;
+    border-radius:40px;
+    background-color:#D6E9FE;
+    background-size:160%;
+    background-position:center;
+}
+
+.avatar4 {
+    background-image:url(../img/ux.jpg);
+    float:left;
+    width:60px;
+    height:60px;
+    margin:20px;
+    border-radius:40px;
+    background-color:#D6E9FE;
+    background-size:160%;
+    background-position:center; 
 }
 
 .username {
@@ -185,4 +225,10 @@ h2 {
 .review {
     background-color:transparent;
     width:100%;
+}
+
+footer {
+    margin-top:8%;
+    height:300px;
+    background-color:rgb(51, 51, 51);
 }

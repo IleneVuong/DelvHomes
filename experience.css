@@ -1,4 +1,3 @@
-/*NAV AND HERO*/
 * {
     box-sizing: border-box;
 }
@@ -60,9 +59,9 @@ nav.main-nav {
 }
 
 header {
-    background-image: url(../img/purple.jpg);
+    background-image: url(../img/experience-hero.jpg);
     background-size:100%;
-    background-position-y:center;
+    background-position-y:bottom;
 }
 
 .hero {
@@ -91,15 +90,7 @@ main {
     justify-content:space-between;
 }
 
-main {
-    max-width:1280px;
-    margin:0 auto;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-}
-
-.text-primary {
+h2 {
     text-align: center;
     background:rgb(124, 124, 220);
     padding-top: 3%;
@@ -109,13 +100,13 @@ main {
     margin-right:40px;
 }
 
+/*Lifestyle*/
 .flexbox {
     display:flex;
     justify-content:space-between;
 }
 
-/*flex boxes css*/
-.amenities-img  {
+.experience-img  {
     text-align: center;
     background: #1abc9c;
     color: white;
@@ -123,8 +114,14 @@ main {
     width:32%;
 }
 
-/*Font size for health care, isolation mode, and restful ease paragraphs*/
-.amenities-img > p {
+.experience-img > p {
+    font-size:20px;
+}
+
+/*Staff*/
+.staff {
+    margin-left:40px;
+    margin-right:40px;
     font-size:20px;
 }
 
@@ -142,8 +139,9 @@ main {
     margin-top:3%;
 }
 
-.airship-img {
-    width:49%;
+.custodian-img {
+    width:43%;
+    margin-left:40px;
 }
 
 .airship-img > p {
@@ -151,8 +149,44 @@ font-size: 28px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.airship-img2 {
-    width:49%;
+.tech-img {
+    width:43%;
+    margin-right:40px;
+}
+
+/*reviews*/
+.column {
+    float:left;
+    width:46%;
+    margin: 20px 1.15%;
+    height:160px;
+    background-color: #b0c6df;
+    overflow:hidden;
+}
+
+.avatar {
+    background-image:url(../img/profile.png);
+    float:left;
+    width:60px;
+    height:60px;
+    margin:20px;
+    border-radius:40px;
+    background-color:#D6E9FE;
+    background-size:120%;
+    background-position:center;
+}
+
+.username {
+    margin-top:30px;
+}
+
+.comment {
+    margin:10px;
+
+}
+
+.review {
+    width:100%;
 }
 
 footer {

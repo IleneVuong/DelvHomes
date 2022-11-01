@@ -1,4 +1,3 @@
-/*NAV AND HERO DO NOT CHANGE*/
 * {
     box-sizing: border-box;
 }
@@ -6,8 +5,9 @@
 body {
     margin:0;
     font-size:16px;
-    background-color:ghostwhite;
+    background-color:#F6F7EB;
 }
+
 img {
     max-width:100%;
 }
@@ -41,20 +41,27 @@ nav.main-nav {
 .main-nav a {
     display: inline-block;
     padding:2rem;
-    color:white;
+    color:#f0f1e5;
     size:1.5rem;
-    font-family:sans-serif;
+    font-family:Tahoma, sans-serif;
     text-decoration:none;
     transition: all 250ms ease;
+    font-size:18px;
+    text-shadow:0 3px 5px rgba(0,0,0,0.7);
 }
 .main-nav a:hover {
-    color:yellow;
-    background-color:dodgerblue;
+    color:#E94F37;
+    border-radius:10px;
+    text-shadow:0 3px 5px rgba(133, 131, 131, 0.7);
 }
+.logo a:hover {
+    background-color:transparent;
+}
+
 header {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/visit-tour-hero.jpg);
     background-size:100%;
-    background-position-y:top;
+    background-position-y:bottom;
 }
 
 .hero {
@@ -67,12 +74,12 @@ header {
 }
 
 .hero-content {
-    background-color:rgba(0,0,0,0.5);
-    width:30%;
-    color:white;
-    border-radius:1rem;
-    box-shadow: 0 3px 5px rgba(0,0,0,0.25);
+    border-radius:20px;
+    width:40%;
+    color:#F6F7EB;
     padding:2rem;
+    font-size:70px;
+    width:max-content;
 }
 
 main {
@@ -130,4 +137,48 @@ h2 {
 h3 {
     text-align:center;
 }
+/*form*/
+.form {
+    margin-left:350px;
+}
+.name {
+    width:300px;
+}
 
+.number {
+    width:300px;
+}
+
+.email {
+    width:600px;
+}
+
+.location {
+    width:210px;
+}
+
+.month {
+    width:100px;
+}
+
+.day {
+    width:100px; 
+}
+
+.time {
+    width:100px;
+}
+
+.submit {
+    margin-left:250px;
+}
+
+.form-head {
+    text-align:center;
+}
+
+footer {
+    margin-top:8%;
+    height:300px;
+    background-color:rgb(51, 51, 51);
+}

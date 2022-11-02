@@ -156,7 +156,7 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.flex1 {
+.tech-flex {
     display:flex;
     justify-content:space-between;
     margin-right:10%;
@@ -200,6 +200,7 @@ h2 {
     margin-left:20px;
 }
 
+/*History*/
 .container {
     margin-right:10%;
     margin-left:15%;

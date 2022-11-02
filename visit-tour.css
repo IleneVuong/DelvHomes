@@ -90,28 +90,96 @@ main {
     justify-content:space-between;
 }
 
-/**/
+/*FOOTER*/
+.footer-nav .logo {
+    width:200px;
+}
+
+.footer-nav {
+    width:100%;
+    max-width:1280px;
+    display:flex;
+    align-items:center;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+
+.footer-nav a:hover {
+    color:#E94F37;
+    border-radius:10px;
+    text-shadow:0 3px 5px rgba(133, 131, 131, 0.7);
+}
+
+.footer-nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.footer-nav a {
+    display: inline-block;
+    padding:2rem;
+    color:#f0f1e5;
+    size:1.5rem;
+    font-family:Tahoma, sans-serif;
+    text-decoration:none;
+    transition: all 250ms ease;
+    font-size:18px;
+}
+
+.footer-flex {
+    display:flex;
+    flex:wrap;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.site-by {
+    width:50%;
+}
+
+.cart-info {
+    width:50%;
+}
+
+footer {
+    margin-top:8%;
+    height:300px;
+    background-color:rgb(102, 102, 102);
+}
+
+
+/*main*/
 h2 {
     font-size:45px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#E94F37;
 }
+
 /*What to expect and the other parts*/
 .row1 {
     display:flex;
     column-count:2;
-    margin-top:20%;
     font-family:sans-serif;
 }
-.included-img,
+.expect-img,
 .what-to-expect {
     width:50%;
     color:#f0f1e5;
 }
+
+.what-to-expect,
+.included-img {
+    margin-left:5%;
+}
+.expect-img {
+    margin-top:2%;
+}
 .what-to-expect > h2 {
     text-align:center;
-    font-size:30px;
-    color:#7A360A;
+    font-size:45px;
+    color:#E94F37;
 }
 
 .location-head {
@@ -125,10 +193,15 @@ h2 {
 }
 
 .whats-included > h2 {
-    font-size:30px;
+    font-size:45px;
     text-align:center;
-    color:#7A360A;
+    color:#E94F37;
 }
+.flex1 {
+    background-color:#3a1f0ad5;
+    margin-top:10%;
+}
+
 
 /*House and price*/
 .row3 {
@@ -145,6 +218,8 @@ h2 {
 h3 {
     text-align:center;
 }
+
+
 /*form*/
 .form {
     margin-left:350px;
@@ -184,10 +259,4 @@ h3 {
 
 .form-head {
     text-align:center;
-}
-
-footer {
-    margin-top:8%;
-    height:300px;
-    background-color:rgb(51, 51, 51);
 }

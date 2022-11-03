@@ -140,7 +140,8 @@ main {
 }
 
 .cart-info {
-    width:50%;
+    width:30%;
+    margin-left:15%;
 }
 
 footer {

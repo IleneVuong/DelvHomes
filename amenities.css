@@ -142,7 +142,8 @@ main {
 }
 
 .cart-info {
-    width:50%;
+    width:30%;
+    margin-left:15%;
 }
 
 footer {
@@ -152,47 +153,87 @@ footer {
 }
 
 /*main*/
-.text-primary {
-    text-align: center;
-    background:#dc7f79;
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
     padding:3%;
-    font-size:35px;
-    margin-left:40px;
-    margin-right:40px;
+    background:#dc7f79;
+    text-align: center;
 }
 
+/*Amenities Provided*/
 .flexbox {
     display:flex;
     justify-content:space-between;
 }
 
-/*flex boxes css*/
-.amenities-img  {
+
+.amenities-content {
     text-align: center;
     background: #6D639C;
-    color: white;
-    font-size: 30px;
+    color: #dddddd;
+    font-size:30px;
     width:32%;
+    border-radius:10px;
 }
 
-/*Font size for health care, isolation mode, and restful ease paragraphs*/
-.amenities-img > p {
+.amenities-content > p {
     font-size:20px;
+    font-family:sans-serif;
+    color:#dddddd;
 }
 
-.airship {
-    background:#dc7f79;
-    text-align: center;
-    padding: 3%;
+.amenities-img {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Expereince*/
+.experience-flex {
+    display:flex;
+    flex:wrap;
     margin-top:5%;
-    font-size:35px;
+}
+
+.garden-img {
+    width:30%;
+    border:solid 2px #dc7f79;
+}
+
+.garden-head {
+    margin-top:0;
+    background-color:transparent;
+    color:#dc7f79;
+}
+
+.garden-text {
+    font-size:20px;
+    font-family:sans-serif;
+    color:#dddddd;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+/*Airship Travel*/
+.airship > h2 {
+    margin-top:5%;
     width:100%;
+}
+
+.airship > p {
+    font-size:20px;
+    font-family:sans-serif;
+    color:#dddddd;
 }
 
 .airship-flex {
     display:flex;
     justify-content:space-around;
-    margin-top:3%;
+    margin-top:1%;
     color:#dddddd;
 
 }
@@ -203,11 +244,39 @@ footer {
 }
 
 .airship-img > p {
-font-size: 28px;
-font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-family:sans-serif;
 }
 
 .airship-img2 {
-    width:49%;
+    width:30%;
     padding-bottom:3%;
+}
+
+/*Expereince*/
+.delivery-flex {
+    display:flex;
+    flex:wrap;
+    margin-top:5%;
+}
+
+.delivery-img {
+    width:30%;
+    height:100%;
+    border:solid 2px #dc7f79;
+}
+
+.deli-head {
+    margin:0;
+    background-color:transparent;
+    color:#dc7f79;
+}
+
+.deli-text {
+    font-size:18.5px;
+    font-family:sans-serif;
+    color:#dddddd;
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:0;
 }

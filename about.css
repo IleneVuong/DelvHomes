@@ -140,7 +140,8 @@ main {
 }
 
 .cart-info {
-    width:50%;
+    width:30%;
+    margin-left:15%;
 }
 
 footer {
@@ -151,16 +152,18 @@ footer {
 
 /*main*/
 h2 {
-    font-size:40px;
+    font-size:45px;
     text-align:center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#C9A5F3;
+    padding:3%;
 }
-
+p {
+    font-family:sans-serif;
+}
 .tech-flex {
     display:flex;
     justify-content:space-between;
-    margin-right:10%;
-    margin-left:10%;
 }
 
 .img1 {
@@ -169,28 +172,20 @@ h2 {
 
 .tech-img {
     border-radius:50%;
-    size:80%;
-    border:solid 4px rgb(235, 214, 73);
+    size:60%;
+    border:solid 3px rgb(235, 214, 73);
 }
 
 .tech {
-   
     margin:30px;
 }
 
 .tech > p {
     font-size:20px;
-    margin:5%;
-    text-align:center;
+    text-align:left;
     color:#dddddd;
 }
-
-.tech > h2 {
-    background-color:#C9A5F3;
-    padding:3%;
-}
     
-
 .article-image {
     float:right;
     width:26%;
@@ -200,61 +195,38 @@ h2 {
     margin-left:20px;
 }
 
-/*History*/
-.container {
-    margin-right:10%;
-    margin-left:15%;
-    margin-top:10%;
-    margin-bottom:10%;
-    width:70%;
-    background-color: #cdcdcd;
-    font-size:20px;
-    border:solid 3px rgb(235, 214, 73);
-    border-top:none;
-}
-
-.history-head {
-    text-align:center;
-    background-color:#C9A5F3;
-    font-size:40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:bold;
-    padding:3%;
-}
-
-.paragraph {
-    margin-left:25px;
-}
-
+/*Staff*/
 .column {
     float:left;
-    width:46%;
-    margin: 20px 1.15%;
-    height:170px;
+    width:47.5%;
+    margin:20px 1.15%;
+    height:200px;
     background-color: #cdcdcd;
     overflow:hidden;
-    border:solid 3px rgb(235, 214, 73);
+    border:solid 3px rgb(216, 216, 215);
 }
 
 .avatar1 {
-    background-image:url(../img/ceo.jpg);
+    background-image:url(../img/ceo2.0.jpg);
     float:left;
-    width:60px;
-    height:60px;
+    width:90px;
+    height:90px;
     margin:20px;
-    border-radius:40px;
+    margin-bottom:30%;
+    border-radius:90px;
     background-color:#D6E9FE;
-    background-size:160%;
-    background-position:center;
+    background-size:190%;
+    background-position:top;
 }
 
 .avatar2 {
     background-image:url(../img/enya.jpg);
     float:left;
-    width:60px;
-    height:60px;
+    width:90px;
+    height:90px;
     margin:20px;
-    border-radius:40px;
+    margin-bottom:30%;
+    border-radius:90px;
     background-color:#D6E9FE;
     background-size:100%;
     background-position:center;
@@ -263,10 +235,11 @@ h2 {
 .avatar3 {
     background-image:url(../img/engineer.jpg);
     float:left;
-    width:60px;
-    height:60px;
+    width:90px;
+    height:90px;
     margin:20px;
-    border-radius:40px;
+    margin-bottom:30%;
+    border-radius:90px;
     background-color:#D6E9FE;
     background-size:160%;
     background-position:center;
@@ -275,10 +248,11 @@ h2 {
 .avatar4 {
     background-image:url(../img/ux.jpg);
     float:left;
-    width:60px;
-    height:60px;
+    width:90px;
+    height:90px;
     margin:20px;
-    border-radius:40px;
+    margin-bottom:30%;
+    border-radius:90px;
     background-color:#D6E9FE;
     background-size:160%;
     background-position:center; 
@@ -289,19 +263,65 @@ h2 {
   width:100%;  
   padding:3%;
   background-color:#C9A5F3;
+  margin-top:5%;
 }
 
 .username {
     margin-top:30px;
     color:#00171f;
+    font-family:Tahoma, sans-serif, Verdana, Geneva; 
 }
 
 .comment {
     margin:10px;
 
 }
+/*contact us*/
+h4 {
+    color:#dddddd;
+    font-family:sans-serif;
+}
 
-.review {
-    background-color:transparent;
-    width:100%;
+.contact-us-head {
+    text-align:center;
+    background-color:#C9A5F3;
+    font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    padding:5%;
+}
+
+.history-flex {
+    display:flex;
+    flex:wrap;
+    justify-content:space-between;
+}
+
+.contact-us {
+    margin-top:5%;
+    width:25%;
+}
+
+/*History*/
+.history {
+    margin-top:5%;
+    margin-bottom:5%;
+    width:73%;
+    background-color: #cdcdcd;
+    font-size:20px;
+    border-top:none;
+    height:75%;
+}
+
+.history-head {
+    text-align:center;
+    background-color:#C9A5F3;
+    font-size:45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    padding:1.55%;
+}
+
+.paragraph {
+    margin-left:25px;
 }

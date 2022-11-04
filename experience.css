@@ -140,7 +140,8 @@ main {
 }
 
 .cart-info {
-    width:50%;
+    width:30%;
+    margin-left:15%;
 }
 
 footer {
@@ -153,11 +154,21 @@ footer {
 h2 {
     text-align: center;
     background:#77A3B6;
-    padding-top: 3%;
+    padding-top:3%;
     padding-bottom:3%;
-    font-size:35px;
-    margin-left:40px;
-    margin-right:40px;
+    font-size:45px;
+    margin-top:5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main p {
+    font-size:20px;
+    font-family:sans-serif;
+    color:#dddddd;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /*Lifestyle*/
@@ -166,56 +177,46 @@ h2 {
     justify-content:space-between;
 }
 
-.experience  {
+.lifestyle  {
     text-align: center;
     background: #853c47;
-    color: white;
+    color: #dddddd;
     font-size: 30px;
     width:32%;
+    border-radius:10px;
 }
 
-.experience > p {
+.life-img {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.lifestyle > p {
     font-size:20px;
+    font-family:sans-serif;
 }
 
 /*Staff*/
 .staff {
-    margin-left:40px;
-    margin-right:40px;
     font-size:20px;
 }
 
 .staff > p {
     color:#dddddd;
+    margin-right:20px;
+    margin-left:20px;
 }
 
-.airship {
-    background:rgb(124, 124, 220);
-    text-align: center;
-    padding: 3%;
-    margin-top:5%;
-    font-size:35px;
-}
-
-.airship-flex {
+.staff-flex {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     margin-top:3%;
 }
 
-.custodian-img {
-    width:43%;
-    margin-left:40px;
-}
-
-.airship-img > p {
-font-size: 28px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
+.custodian-img,
 .tech-img {
-    width:43%;
-    margin-right:40px;
+    width:47%;
+    margin:20px;
 }
 
 /*reviews*/
@@ -243,11 +244,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .username {
     margin-top:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:21px;
 }
 
 .comment {
     margin:10px;
-
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
 }
 
 .review {

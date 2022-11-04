@@ -152,11 +152,15 @@ footer {
 
 /*main*/
 h2 {
-    font-size:40px;
+    font-size:45px;
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#C9A5F3;
+    padding:3%;
 }
-
+p {
+    font-family:sans-serif;
+}
 .tech-flex {
     display:flex;
     justify-content:space-between;
@@ -181,13 +185,7 @@ h2 {
     text-align:left;
     color:#dddddd;
 }
-
-.tech > h2 {
-    background-color:#C9A5F3;
-    padding:3%;
-}
     
-
 .article-image {
     float:right;
     width:26%;
@@ -200,9 +198,9 @@ h2 {
 /*Staff*/
 .column {
     float:left;
-    width:46%;
+    width:47.5%;
     margin:20px 1.15%;
-    height:180px;
+    height:200px;
     background-color: #cdcdcd;
     overflow:hidden;
     border:solid 3px rgb(216, 216, 215);
@@ -271,6 +269,7 @@ h2 {
 .username {
     margin-top:30px;
     color:#00171f;
+    font-family:Tahoma, sans-serif, Verdana, Geneva; 
 }
 
 .comment {
@@ -279,7 +278,8 @@ h2 {
 }
 /*contact us*/
 h4 {
-    color:white;
+    color:#dddddd;
+    font-family:sans-serif;
 }
 
 .contact-us-head {
@@ -310,15 +310,16 @@ h4 {
     background-color: #cdcdcd;
     font-size:20px;
     border-top:none;
+    height:75%;
 }
 
 .history-head {
     text-align:center;
     background-color:#C9A5F3;
-    font-size:40px;
+    font-size:45px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:bold;
-    padding:3%;
+    padding:1.55%;
 }
 
 .paragraph {

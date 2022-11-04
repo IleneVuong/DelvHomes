@@ -49,19 +49,21 @@ nav.main-nav {
     font-size:18px;
     text-shadow:0 3px 5px rgba(0,0,0,0.7);
 }
+
 .main-nav a:hover {
     color:#E94F37;
     border-radius:10px;
     text-shadow:0 3px 5px rgba(133, 131, 131, 0.7);
 }
+
 .logo a:hover {
     background-color:transparent;
 }
 
 header {
-    background-image: url(../img/visit-tour-hero.jpg);
+    background-image: url(../img/hero-test3.jpg);
     background-size:100%;
-    background-position-y:bottom;
+    background-position-y:center;
 }
 
 .hero {
@@ -243,7 +245,7 @@ h3 {
     font: 15px sans-serif; 
 	padding:10px; 
 	width:30%;
-    background-color:blue;
+    background-color:rgb(60, 60, 130);
 }
 
 .name,

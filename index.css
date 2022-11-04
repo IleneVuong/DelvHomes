@@ -222,7 +222,9 @@ h2 {
     color:#E94F37;
     text-shadow:0 3px 5px rgba(0,0,0,0.7);
     transition: all 250ms ease;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .centered > a:hover {
     color:#73648A;
 }

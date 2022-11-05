@@ -154,12 +154,12 @@ footer {
 /*main*/
 h2 {
     text-align: center;
-    background:#77A3B6;
     padding-top:3%;
     padding-bottom:3%;
     font-size:45px;
     margin-top:5%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:-webkit-radial-gradient(#77A3B6,#2088b4)
 }
 
 main p {
@@ -195,6 +195,8 @@ h3 {
 .lifestyle > p {
     font-size:20px;
     font-family:sans-serif;
+    text-align:left;
+    margin-left:20px;
 }
 
 /*Staff*/
@@ -204,9 +206,6 @@ h3 {
 
 .staff > p {
     color:#dddddd;
-    margin-right:20px;
-    margin-left:20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .staff-flex {
@@ -217,8 +216,7 @@ h3 {
 
 .custodian-img,
 .tech-img {
-    width:47%;
-    margin:20px;
+    width:49%;
 }
 
 /*reviews*/

@@ -60,9 +60,9 @@ nav.main-nav {
 }
 
 header {
-    background-image: url(../img/purple.jpg);
+    background-image: url(../img/hero-amend4.jpg);
     background-size:100%;
-    background-position-y:center;
+    background-position-y:190%;
 }
 
 .hero {
@@ -181,6 +181,8 @@ h2 {
     font-size:20px;
     font-family:sans-serif;
     color:#dddddd;
+    text-align:left;
+    margin-left:20px;
 }
 
 .amenities-img {
@@ -232,7 +234,7 @@ h3 {
 
 .airship-flex {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     margin-top:1%;
     color:#dddddd;
 

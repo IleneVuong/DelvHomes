@@ -59,9 +59,9 @@ nav.main-nav {
 }
 
 header {
-    background-image: url(../img/abouthero.jpg);
+    background-image: url(../img/hero-test2.jpg);
     background-size:100%;
-    background-position-y:bottom;
+    background-position-y:center;
 }
 
 .hero {
@@ -175,7 +175,7 @@ p {
 .tech-img {
     border-radius:50%;
     size:60%;
-    border:solid 3px rgb(235, 214, 73);
+    border:solid 3px rgb(136, 135, 130);
 }
 
 .tech {

@@ -178,7 +178,7 @@ h2 {
     color:#dddddd;
     margin-left:3%;
     margin-top:2%;
-    text-align:right;
+    text-align:left;
 } 
 
 .expect-img {
@@ -188,7 +188,7 @@ h2 {
 }
 
 .img {
-    border:solid 2px #cc5d22;
+    border:solid 2px #935fa3;
     height:97%;
 }
 
@@ -213,12 +213,12 @@ h2 {
 }
 
 .whats-included > h2 {
-    text-align:left;
+    text-align:center;
     margin-bottom:0;
 }
 
 .what-to-expect > h2 {
-    text-align:right;
+    text-align:center;
     margin-bottom:0;
 }
 
